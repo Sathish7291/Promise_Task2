@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black !important;
+  color: white !important;
+  font-family: "EB Garamond", serif !important;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+}
+.data-values {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  padding: 10px;
+  margin: 12px;
+}
+.card-img-top {
+  width: 100px;
+  height: 150px;
+  border: 2px solid black;
+}
+.card:hover {
+  cursor: pointer;
+  background-color: red;
+}
